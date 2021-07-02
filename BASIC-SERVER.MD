@@ -28,7 +28,7 @@ sudo apt-get install certbot
 Run this command to get a certificate. Certbot will temporarily spin up a webserver
 
 ```
-sudo certbot certonly --standalone
+sudo certbot certonly --standalone -d {your_domain}
 ```
 
 The certificates are then located in: `/etc/letsencrypt/live/{your_domain}/`
